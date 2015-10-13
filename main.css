@@ -1,12 +1,12 @@
-#slider {
+#plane {
     
     background:url(images/japan.png);
     position: absolute;
-    left: 15px; 
-    top: 15px; 
+    left: 10px; 
+    top: 10px; 
     bottom: auto; 
-    height:180px;
-    width:220px;  
+    height:80px;
+    width:120px;  
 }
 /*working in safari*/
 @-webkit-keyframes animatedBackground {
@@ -33,17 +33,37 @@
 
 #enemy1{
     position:absolute;
+    height:20px;
+    width: 100px;
      -webkit-animation: enemy_animation 5s linear infinite;
 }
 
 #enemy2{
     position:absolute;
+    height:20px;
+    width:100px;
      -webkit-animation: enemy_animation 10s linear infinite;
 }
 
 #enemy3{
     position:absolute;
+    height:20px;
+    width:100px;
      -webkit-animation: enemy_animation 8s linear infinite;
+}
+
+#enemy4{
+     position:absolute;
+    height:20px;
+    width:100px;
+     -webkit-animation: enemy_animation 6s linear infinite;
+}
+
+#enemy5{
+     position:absolute;
+    height:20px;
+    width:100px;
+     -webkit-animation: enemy_animation 4s linear infinite;
 }
 
 
@@ -51,6 +71,10 @@
 0%{
 position:absolute;
 right:0%;
+}
+10%{
+position:absolute;
+right:20%;    
 }
 20%{
 position:absolute;
